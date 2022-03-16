@@ -1,0 +1,54 @@
+
+    10) Com base no exercício 7, crie um programa PHP  
+    que tenha três funções :
+
+   	 verifica_Par( $num )
+   	 Verifica_Positivo ($num )
+   	 Quadrado( $num )
+
+   	 Este programa irá solicitar um número para o usuário,
+   	 e conforme o retorno das funções irá imprimir :
+
+   	 O número XX  é par
+   	 O número XX é positivo
+   	 O quadrado do número XX é  YYY
+   	 
+   	 
+   	 
+   	 DICA :
+   	 <?php  // Exercicio 10
+   		 function par($num){
+
+   			 // exercicio 4
+   			 //$num = (int) $num;
+   			 // ex $num = 2;
+   		 
+   			 if($num % 2 == 0){
+   				 
+   				 return true;
+   				 
+   			 }else{
+   			 
+   				 return false;
+
+   			 }
+
+   		 }
+
+
+   		 echo "Informe um número : \n";
+   		 $num = (float) fgets(STDIN);
+   		 
+   		 
+   		 if ( par( $num ) ) {
+   			 echo "É par $num";
+   		 } else {
+   			 echo "Não É par $num";
+   		 }
+   		 
+   		 
+
+   	 ?>   	 
+   	 ---------------------------------------------
+   	 
+   

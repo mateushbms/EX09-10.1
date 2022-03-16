@@ -1,0 +1,11 @@
+
+    10.1) Agora modifique o exercício 10 para que
+    as funções : verifica_Par( $num )
+   	 Verifica_Positivo ($num )
+   	 Quadrado( $num ) ,
+   	 fiquem em um arquivo separado,
+   	 e sejam incorporadas no programa principal
+   	 através da instrução require_once
+   	 
+    
+*/

@@ -1,0 +1,56 @@
+9) Atividade para entregar: Grupo de até 3 alunos:
+   	 
+   	 Desenvolva um programa PHP para cadastrar movimentações
+   	 em uma conta no banco Bradesco.
+   	 
+    	O programa deverá permitir cadastrar movimentações de
+   	 conta poupança e conta corrente.
+    	Desenvolva o seu projeto utilizando três funções:
+  	 
+    	A) Funcao principal : recebe os dados a serem cadastrados
+   	 no movimento :
+    
+ 	 
+      	Tipo de Conta (C-orrente ou P-oupança)
+        	Tipo de movimento (S-aque ou D-epósito) ,
+        	Valor da operação
+   	 
+    	B) Função para atualizar o saldo de conta poupança.  
+       	Lembre-se que para conta poupança só é permitido
+   		o saque se o saldo da conta for > 0
+   	 
+    	C) Função para atualizar o saldo de conta corrente.
+   	 (Permitido saldo negativo)
+          	 
+    	Nota : A Função principal (A)  deverá chamar as
+   	 funções de atualização de saldo (B ou C)
+   	 conforme o tipo de conta,
+        	ex. de chamada   saldoPoupanca( 'S' , 10 )
+   	 
+    	<?php
+   	 
+        	// Dicas
+       	 
+        	// crie uma variável para guardar o saldo da conta corrente
+            	https://www.php.net/manual/pt_BR/language.variables.scope.php
+       	 
+        	// crie uma variável global para guardar o saldo da conta poupança
+       	 
+        	// Invoque a função principal passando os dados do movimento
+       	 
+            	exemplo :  movimento(  'C' , 'D' , 20 )
+               	 
+                            	echo " Saldo $saldoC \n"
+                            	echo " Saldo $saldoP \n"
+                       	 
+                       	movimento(  'P' , 'D' , 15 )    
+                            	echo " Saldo $saldoC \n"
+                            	echo " Saldo $saldoP \n"
+       	 
+        	// a função principal deverá invocar as
+   		 funções (B ou C) conforme o tipo de conta
+   	 
+    	?>
+
+    
+*/
